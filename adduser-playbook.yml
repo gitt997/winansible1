@@ -1,7 +1,8 @@
 --- 
 
 - name: Add a user
-  hosts: windows
+  hosts: localhost
+#  connection: local
   gather_facts: false
   tasks:
     - name: Add User
