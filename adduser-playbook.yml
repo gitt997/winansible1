@@ -1,5 +1,3 @@
---- 
-
 #- name: Add a user
 - hosts: localhost
   tasks:
