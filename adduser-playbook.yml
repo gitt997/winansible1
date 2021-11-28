@@ -1,5 +1,5 @@
 #- name: Add a user
-- hosts: localhost
+- hosts: all
   tasks:
     - name: Add User
       win_user:
