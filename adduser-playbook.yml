@@ -1,8 +1,7 @@
 --- 
 
-- name: Add a user
-  hosts: localhost
-  gather_facts: false
+#- name: Add a user
+- hosts: localhost
   tasks:
     - name: Add User
       win_user:
