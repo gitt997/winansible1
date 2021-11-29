@@ -1,3 +1,5 @@
+---
+
 #- name: Add a user
 - hosts: all
   tasks:
